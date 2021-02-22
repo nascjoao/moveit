@@ -11,3 +11,9 @@
     --blue-dark: #4953B8;
     --blue-twitter: #2AA9E0;
 }
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
