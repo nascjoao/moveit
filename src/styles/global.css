@@ -79,3 +79,9 @@ a {
     height: 100%;
     border-radius: 4px;
 }
+
+span.current-experience {
+    position: absolute;
+    top: 12px;
+    transform: translateX(-50%);
+}
