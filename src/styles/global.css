@@ -47,3 +47,28 @@ a {
     color: inherit;
     text-decoration: none;
 }
+
+.experience-bar {
+    display: flex;
+    align-items: center;
+}
+
+.experience-bar span {
+    font-size: 1rem;
+}
+
+.experience-bar > div {
+    flex: 1;
+    height: 4px;
+    background: var(--gray-line);
+    border-radius: 4px;
+    margin: 0 1.5rem;
+
+    position: relative;
+}
+
+.experience-bar > div > div {
+    background: var(--green);
+    height: 100%;
+    border-radius: 4px;
+}
