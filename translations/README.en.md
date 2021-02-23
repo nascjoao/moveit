@@ -5,6 +5,8 @@
 ### A self-management tool with a gamified experience.
 
 [Visualizar em Português <kbd>🇧🇷️</kbd>](../README.md)
+
+![ui preview](https://ik.imagekit.io/joaonasc/GitHub/repos/moveit/Capa_thPzlEAAM.png)
 </div>
 
 ### Index
