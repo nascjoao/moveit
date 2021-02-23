@@ -5,6 +5,8 @@
 ### Ferramenta de autogestão com experiência gamificada.
 
 [See in English <kbd>️🇺🇸️</kbd>](./translations/README.en.md)
+
+![Move It, Next Level Week 4](https://ik.imagekit.io/joaonasc/GitHub/repos/moveit/Capa_1Gq5CwnAIF.png)
 </div>
 
 ### Índice
