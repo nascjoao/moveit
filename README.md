@@ -5,6 +5,8 @@
 ### Ferramenta de autogestão com experiência gamificada.
 
 [See in English <kbd>️🇺🇸️</kbd>](./translations/README.en.md)
+
+![ui preview](https://ik.imagekit.io/joaonasc/GitHub/repos/moveit/Capa_thPzlEAAM.png)
 </div>
 
 ### Índice
