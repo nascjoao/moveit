@@ -15,7 +15,7 @@ export function Countdown() {
             </div>
         </div>
 
-        <button className={styles.countdownButton}>Iniciar ciclo</button>
+        <button className={styles.countdownButton}>Iniciar um ciclo</button>
         </div>
     )
 }
