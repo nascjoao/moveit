@@ -6,7 +6,7 @@
 
 [See in English <kbd>️🇺🇸️</kbd>](./translations/README.en.md)
 
-![Move It, Next Level Week 4](https://ik.imagekit.io/joaonasc/GitHub/repos/moveit/Capa_1Gq5CwnAIF.png)
+![ui preview](https://ik.imagekit.io/joaonasc/GitHub/repos/moveit/Capa_thPzlEAAM.png)
 </div>
 
 ### Índice
