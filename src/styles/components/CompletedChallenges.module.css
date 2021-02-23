@@ -9,3 +9,7 @@
 
     font-weight: 500;
 }
+
+.completedChallengesContainer span:first-child {
+    font-size: 1.25rem;
+}
