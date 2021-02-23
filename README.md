@@ -1,11 +1,11 @@
-<header align="center">
+<div align="center">
 
 ![logotipo de Move It](https://ik.imagekit.io/joaonasc/GitHub/repos/moveit/Logo_q3S5Q_UWu.png)
 
 ### Ferramenta de autogestão com experiência gamificada.
 
 [See in English <kbd>️🇺🇸️</kbd>](./translations/README.en.md)
-</header>
+</div>
 
 ### Índice
 * [Sobre](#sobre)
