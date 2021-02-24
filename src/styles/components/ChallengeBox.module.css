@@ -38,3 +38,22 @@
     max-width: 70%;
     margin-top: 1rem;
 }
+
+.challengeActive strong {
+    font-size: 1.5rem;
+    font-weight: 500;
+    line-height: 1.4;
+}
+
+.challengeActive p {
+    display: flex;
+    align-items: center;
+    text-align: left;
+    line-height: 1.4;
+    margin-top: 2.5rem;
+}
+
+.challengeActive p img {
+    width: 2rem;
+    margin-right: 1.5rem;
+}
