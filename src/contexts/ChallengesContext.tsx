@@ -22,6 +22,7 @@ interface ChallengesContextData {
     levelUp: () => void;
     newChallenge: () => void;
     waitForChallenge: () => void;
+    killCounterActive: () => void;
     resetChallenge: () => void;
     completeChallenge: () => void;
 }
@@ -49,6 +50,10 @@ export function ChallengesProvider({children}: ChallengesProviderProps) {
 
     function waitForChallenge() {
         setCounterActive(true)
+    }
+
+    function killCounterActive() {
+        setCounterActive(false)
     }
 
     function resetChallenge() {
@@ -83,6 +88,7 @@ export function ChallengesProvider({children}: ChallengesProviderProps) {
             levelUp,
             newChallenge,
             waitForChallenge,
+            killCounterActive,
             resetChallenge,
             completeChallenge
         }}>
