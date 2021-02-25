@@ -1,4 +1,4 @@
-import { createContext, ReactNode, useState } from "react";
+import { createContext, ReactNode, useEffect, useState } from "react";
 
 import challenges from '../../challenges.json'
 
@@ -38,6 +38,10 @@ export function ChallengesProvider({children}: ChallengesProviderProps) {
 
     const experienceToNextLevel = Math.pow((level + 1) * 4, 2)
 
+    useEffect(() => {
+        Notification.requestPermission()
+    }, [])
+
     function levelUp() {
         setLevel(level + 1)
     }
@@ -45,7 +49,17 @@ export function ChallengesProvider({children}: ChallengesProviderProps) {
     function newChallenge() {
         setCounterActive(false)
         const randomChallengeIndex = Math.floor(Math.random() * challenges.length)
-        setActiveChallenge(challenges[randomChallengeIndex])
+        const challenge = challenges[randomChallengeIndex]
+        setActiveChallenge(challenge)
+
+        if (Notification.permission === 'granted') {
+            new Notification('Novo Desafio! 🎉️', {
+                body: `Valendo ${challenge.amount} xp`,
+                icon: 'favicon.png',
+            }),
+
+            new Audio('notification.mp3').play()
+        }
     }
 
     function waitForChallenge() {
