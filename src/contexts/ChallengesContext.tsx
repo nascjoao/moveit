@@ -3,6 +3,7 @@ import { createContext, ReactNode, useEffect, useState } from "react";
 import Cookies from 'js-cookie'
 
 import challenges from '../../challenges.json'
+import { LevelUpModal } from "../components/LevelUpModal";
 
 interface ChallengesProviderProps {
     children: ReactNode;
@@ -118,6 +119,7 @@ export function ChallengesProvider({children, ...rest}: ChallengesProviderProps)
             completeChallenge
         }}>
             {children}
+            <LevelUpModal />
         </ChallengesContext.Provider>
     )
 }
