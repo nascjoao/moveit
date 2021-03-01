@@ -24,6 +24,12 @@
     }
 }
 
+@media (max-width: 380px) {
+    html {
+        font-size: 75%;
+    }
+}
+
 * {
     margin: 0;
     padding: 0;
