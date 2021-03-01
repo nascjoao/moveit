@@ -71,6 +71,7 @@
     font-size: 1.25rem;
     padding: 0 2rem 1.5rem;
     border-bottom: 1px solid var(--gray-line);
+    margin-bottom: 1.5rem;
 }
 
 .challengeActive main {
@@ -96,6 +97,7 @@
     display: grid;
     grid-template-columns: 1fr 1fr;
     gap: 1rem;
+    margin-top: 1.5rem;
 }
 
 .challengeActive footer button {
